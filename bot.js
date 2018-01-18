@@ -13,7 +13,8 @@ bot.on('message',message => {
         'Shob dekhi khankir pola',
         'Bott madacchot bazi tui',
         'Tor mare hoga',
-        'Gail dis na bhai'
+        'Gail dis na bhai',
+        'Tomar hoga'
     ];
     ////////////////////////////////////////////////////
     if(msg === prefix+'YO'){
