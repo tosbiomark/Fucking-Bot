@@ -12,7 +12,8 @@ bot.on('message',message => {
         'Aryanna magir pola ase to itare de na',
         'Shob dekhi khankir pola',
         'Bott madacchot bazi tui',
-        'Tor mare hoga'
+        'Tor mare hoga',
+        'Gail dis na bhai'
     ];
     ////////////////////////////////////////////////////
     if(msg === prefix+'YO'){
@@ -45,8 +46,7 @@ bot.on('message',message => {
     }
     else if(msg.indexOf(prefix)>-1){
         if(msg.indexOf('FUCK')>-1 && msg.indexOf('BOT')>-1){
-            var a = Math.floor(Math.random()*4);
-            message.channel.send(botdefendtext[a]);
+            message.channel.send(botdefendtext[Math.floor(Math.random()*botdefendtext.length)]);
         }
 
         if(msg.indexOf('GOOD NIGHT')>-1){
