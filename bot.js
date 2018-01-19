@@ -16,21 +16,21 @@ bot.on('message',message => {
         'Gail dis na bhai',
         'Tomar hoga'
     ];
-    var othello = {
+    var othello = [
         'Othello Bolla j',
         'Othello ke die hobe na',
         'Ita beda majhe majhe shera hoi jaee kemne jeno',
         'Othello kisse j'
         'Ita mair khabe amar thekeeke',
         'Ita bhala pola'
-    }
+    ]
     ////////////////////////////////////////////////////
     if(msg === prefix+'YO'){
         message.channel.send("Whassup nigga");
     }
-    else if(msg === prefix+'OTHELLO'){
+    /*else if(msg === prefix+'OTHELLO'){
         message.channel.send("Ita to bosti :smirk:");
-    }
+    }*/
     else if(msg === prefix+'ARYAN'){
         message.channel.send("Ita nake diye shing pore itar kotha bolis na :joy:");
     }
