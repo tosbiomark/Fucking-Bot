@@ -23,7 +23,7 @@ bot.on('message',message => {
         'Othello kisse j',
         'Ita mair khabe amar thekeeke',
         'Ita bhala pola'
-    ]
+    ];
     ////////////////////////////////////////////////////
     if(msg === prefix+'YO'){
         message.channel.send("Whassup nigga");
