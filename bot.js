@@ -20,7 +20,7 @@ bot.on('message',message => {
         'Othello Bolla j',
         'Othello ke die hobe na',
         'Ita beda majhe majhe shera hoi jaee kemne jeno',
-        'Othello kisse j'
+        'Othello kisse j',
         'Ita mair khabe amar thekeeke',
         'Ita bhala pola'
     ]
@@ -61,7 +61,7 @@ bot.on('message',message => {
             message.channel.send(botdefendtext[Math.floor(Math.random()*botdefendtext.length)]);
         }
         if(msg.indexOf('OTHELLO')>-1){
-            message.channel.send(othello[Math.floor(Math.random()*botdefendtext.length)]);
+            message.channel.send(othello[Math.floor(Math.random()*othello.length)]);
         }
 
         if(msg.indexOf('GOOD NIGHT')>-1){
