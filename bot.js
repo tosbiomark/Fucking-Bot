@@ -36,12 +36,6 @@ bot.on('message',message => {
     if(msg === prefix+'YO'){
         message.channel.send("Whassup nigga");
     }
-    /*else if(msg === prefix+'OTHELLO'){
-        message.channel.send("Ita to bosti :smirk:");
-    }*/
-    /*else if(msg === prefix+'ARYAN'){
-        message.channel.send("Ita nake diye shing pore itar kotha bolis na :joy:");
-    }*/
     else if(msg === prefix+'ADIL'){
         message.channel.send("Itar pasa choto :grin:");
     }
