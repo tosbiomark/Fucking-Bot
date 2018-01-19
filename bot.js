@@ -16,6 +16,14 @@ bot.on('message',message => {
         'Gail dis na bhai',
         'Tomar hoga'
     ];
+    var othello = {
+        'Othello Bolla j',
+        'Othello ke die hobe na',
+        'Ita beda majhe majhe shera hoi jaee kemne jeno',
+        'Othello kisse j'
+        'Ita mair khabe amar thekeeke',
+        'Ita bhala pola'
+    }
     ////////////////////////////////////////////////////
     if(msg === prefix+'YO'){
         message.channel.send("Whassup nigga");
@@ -52,7 +60,9 @@ bot.on('message',message => {
         if(msg.indexOf('FUCK')>-1 && msg.indexOf('YOU')>-1){
             message.channel.send(botdefendtext[Math.floor(Math.random()*botdefendtext.length)]);
         }
-   
+        if(msg.indexOf('OTHELLO')>-1){
+            message.channel.send(othello[Math.floor(Math.random()*botdefendtext.length)]);
+        }
 
         if(msg.indexOf('GOOD NIGHT')>-1){
             message.channel.send("Good Night Bro");
