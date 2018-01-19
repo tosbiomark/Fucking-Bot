@@ -24,6 +24,14 @@ bot.on('message',message => {
         'Ita mair khabe amar thekeeke',
         'Ita bhala pola'
     ];
+    var aryan = [
+        'Itar shathe brawl kheltisi j ekhon',
+        'Itar nak boro',
+        'Aryanna koi tui tore gail dicche monee hoe dekh',
+        'Itar pad e je gondho oidin dekhsilam obap',
+        'Ita tempu ola',
+        'Itare sudis na ita bainchod'
+    ];
     ////////////////////////////////////////////////////
     if(msg === prefix+'YO'){
         message.channel.send("Whassup nigga");
@@ -62,6 +70,9 @@ bot.on('message',message => {
         }
         if(msg.indexOf('OTHELLO')>-1){
             message.channel.send(othello[Math.floor(Math.random()*othello.length)]);
+        }
+        if(msg.indexOf('ARYAN')>-1 || msg.indexOf('ARIYAN')>-1){
+            message.channel.send(aryan[Math.floor(Math.random()*aryan.length)]);
         }
 
         if(msg.indexOf('GOOD NIGHT')>-1){
