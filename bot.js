@@ -49,7 +49,7 @@ bot.on('message',message => {
         if(msg.indexOf('FUCK')>-1 && msg.indexOf('BOT')>-1){
             message.channel.send(botdefendtext[Math.floor(Math.random()*botdefendtext.length)]);
         }
-        if(msg.indexOf('FUCK')>1 && msg.indexOf('YOU')>-1){
+        if(msg.indexOf('FUCK')>-1 && msg.indexOf('YOU')>-1){
             message.channel.send(botdefendtext[Math.floor(Math.random()*botdefendtext.length)]);
         }
    
