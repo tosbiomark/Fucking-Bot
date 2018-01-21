@@ -30,7 +30,22 @@ module.exports = function(bot){
             'Ita tempu ola',
             'Itare sudis na ita bainchod'
         ];
+        var emon = [
+            'Emon ki obostha tomar',
+            'Emon bhai ar poris na baji tui',
+            'Emon Tumi amake chinteso na miya',
+            'Emon I love you',
+            'Emon kire tumi amake patta dao na keno',
+            'Emon kitkat khawao',
+            'Emon Bhalo aso?'
+        ];
         ////////////////////////////////////////////////////
+
+        ////////////////////////////////Emon /////////////////////
+        if(admin === '402377069797048320'){
+            message.channel.send(emon[Math.floor(Math.random()*emon.length)]);
+        }
+
         if(msg === prefix+'YO'){
             message.channel.send("Whassup nigga");
         }
