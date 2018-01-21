@@ -41,7 +41,7 @@ module.exports = function(bot){
             'Emon kire tumi amake patta dao na keno',
             'Emon kitkat khawao',
             'Emon Bhalo aso?'
-            'Emon er dhon 6'1" '
+            'Emon er dhon 6'
         ];
         ////////////////////////////////////////////////////
 
