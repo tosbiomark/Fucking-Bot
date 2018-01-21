@@ -43,14 +43,14 @@ module.exports = function(bot){
             'Emon Bhalo aso?'
             'Emon er dhon 6'
         ];
-        var what's shaking? = [
-            'Our ass is shaking with ding dongs', 
-            'Rippety Dabbidi Du Da',
-            'Kick yourself in the nuts cunt',
-            'Wizard Of Oz in a shell of rotten pooped eggs', 
-            'Anne Frank was shaking well inside the incinerator',
-            'Ask the Jews', 
-            'Muslims shake a lot of cows on Eid',
+        var what's shaking = [
+            'Our ass is shaking with ding dongs' 
+            'Rippety Dabbidi Du Da'
+            'Kick yourself in the nuts cunt'
+            'Wizard Of Oz in a shell of rotten pooped eggs' 
+            'Anne Frank was shaking well inside the incinerator'
+            'Ask the Jews' 
+            'Muslims shake a lot of cows on Eid'
             'Curries are fascinating but irritable creatures'
          ];
         ////////////////////////////////////////////////////
