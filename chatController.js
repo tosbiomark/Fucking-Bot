@@ -21,6 +21,7 @@ module.exports = function(bot){
             'Othello kisse j',
             'Ita mair khabe amar thekeeke',
             'Ita bhala pola'
+            'Ami GPA 6.0'
         ];
         var aryan = [
             'Itar shathe brawl kheltisi j ekhon',
@@ -29,6 +30,8 @@ module.exports = function(bot){
             'Itar pad e je gondho oidin dekhsilam obap',
             'Ita tempu ola',
             'Itare sudis na ita bainchod'
+            'Itar bou suicide korbeh niki?'
+            'Aryan er bacha poida hobeh ajke.'
         ];
         var emon = [
             'Emon ki obostha tomar',
@@ -38,6 +41,7 @@ module.exports = function(bot){
             'Emon kire tumi amake patta dao na keno',
             'Emon kitkat khawao',
             'Emon Bhalo aso?'
+            'Emon er dhon 6'1" '
         ];
         ////////////////////////////////////////////////////
 
