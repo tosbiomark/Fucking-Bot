@@ -39,6 +39,14 @@ module.exports = function(bot){
             'Emon kitkat khawao',
             'Emon Bhalo aso?'
         ];
+        var butter = [
+            'Butter tui khata.',
+            'Butter tor nunu choto',
+            'Butter abasarap tor mare baap',
+            'Butter tore ami chudi',
+            'Butter kolja tukra dhone tui amar', 
+            'Butter makhon khechos kokhon?'
+            ];
         ////////////////////////////////////////////////////
 
         ////////////////////////////////Emon /////////////////////
