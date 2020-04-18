@@ -89,7 +89,9 @@ module.exports = function(bot){
             if(msg.indexOf('ARYAN')>-1 || msg.indexOf('ARIYAN')>-1){
                 message.channel.send(aryan[Math.floor(Math.random()*aryan.length)]);
             }
-    
+            if(msg.indexOf('BUTTER')>-1 || msg.indexOf('BUTTER')>-1){
+                message.channel.send(butter[Math.floor(Math.random()*butter.length)]);
+            }
             if(msg.indexOf('GOOD NIGHT')>-1){
                 message.channel.send("Good Night Bro");
             }
